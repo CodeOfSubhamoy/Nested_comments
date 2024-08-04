@@ -5,8 +5,14 @@
   margin-top: 10px;
   padding: 10px;
   height: auto;
+  width: 25%;
 }
-
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .text {
   font-size: 20px;
   font-weight: bolder;
@@ -17,7 +23,10 @@
   cursor: pointer;
   font-weight: bolder;
 }
-
+.container {
+  border: 1px solid black;
+  padding: 1rem;
+}
 .comment-reply-container {
   margin-left: 4rem;
   margin-top: 0.4rem;
